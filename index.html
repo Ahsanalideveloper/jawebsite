@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=PT+Sans+Narrow:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Style+Script&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      </head>
+
+<body>
+    <div class="header">
+        <nav class="navbar">
+            <div class="container">
+                <h2 class="navbar-brand" data-aos="fade-down-right">JA.</h2>
+                <ul class="links"  data-aos="fade-down-left">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Resume</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler"><i class="fa-solid fa-bars fa-2xl" style="color: #0a0a0a;"></i></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel" data-aos="fade-right">JA.</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item" data-aos="fade-right">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Resume</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="navbartext">
+            <h1 data-aos="flip-left">I'm James Anderson <br>
+                A Front-end Developer</h1>
+            <p data-aos="flip-left">A new work from <span>Colorlib</span></p>
+        </div>
+    </div>
+
+    <!-- about -->
+     <div class="container about"> 
+        <div class="row" id="about1">
+          <div class="col-xl-5 col-lg-6 col-md-12 images" data-aos="flip-right">
+            <img src="images/image_1_long.jpg.webp" class="img-fluid" alt="image_1_long.jpg.webp">
+          </div>
+          <div class=" col-xl-7 col-lg-6 col-md-12 texts"  data-aos="zoom-in">
+            <h1>My Bio</h1>
+            <p>Far far away, behind the word mountains, far from the countries  <br>Vokalia and Consonantia, there live the blind texts. <br>Separated they live in Bookmarksgrove right at the coast of the <br> Semantics, a large language ocean.</p>
+            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. <br> It is a paradisematic country,  in which roasted parts of sentences fly into your mouth.</p>
+            
+            
+            <h2>Design</h2>
+            <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 25%">25%</div>
+              </div>
+              <h2>HTML5</h2>
+              <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 50%">50%</div>
+              </div>
+              <h2>CSS 3</h2>
+              <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar " style="width: 75%">75%</div>
+              </div>
+              <h2>Wordpress</h2>
+              <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar " style="width: 100%">100%</div>
+              </div>
+              <h2>Bootstrap</h2>
+              <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 100%">100%</div>
+              </div>
+        </div>
+        </div>
+       </div> 
+  
+       <!-- Portfolio -->
+       <div class="contiener" id="Portfolio" data-aos="zoom-in-down">
+       <h1>Portfolio</h1>
+       <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Disabled</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="container">
+    <div class="row Portfolioimg">
+    <div class="col-lg-4 col-md-12" data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000">
+      <div class="img1">
+        <img src="images/work_5.jpg.webp" class="img-fluid" alt="work_5.jpg.webp">
+      </div>
+      <div class="img2">
+        <img src="images/work_7.jpg.webp" class="img-fluid" alt="work_7.jpg.webp">
+      </div>
+    </div>
+
+
+  <div class="col-lg-4 col-md-12" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+    <div class="images1">
+      <img src="images/work_1.jpg.webp" class="img-fluid" alt="work_1.jpg.webp">
+    </div>
+  </div>
+ 
+
+  <div class="col-lg-4 col-md-12" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+    <div class="images1">
+      <img src="images/work_2.jpg.webp" class="img-fluid" alt="work_2.jpg.webp">
+</div>
+  </div>
+
+  <div class="col-lg-4 col-md-12" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+    <div class="images2">
+      <img src="images/work_3.jpg.webp" class="img-fluid" alt="work_3.jpg.webp">
+</div>
+  </div>
+  <div class="col-lg-4 col-md-12" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+    <div class="images2">
+      <img src="images/work_4.jpg.webp" class="img-fluid" alt="work_4.jpg.webp">
+</div>
+  </div>
+  <div class="col-lg-4 col-md-12" data-aos="flip-left"
+  data-aos-easing="ease-out-cubic"
+  data-aos-duration="2000">
+    <div class="images2">
+      <img src="images/work_6.jpg.webp" class="img-fluid" alt="work_6.jpg.webp">
+</div>
+  </div>
+
+</div>
+
+
+</div>
+
+    
+
+<!-- services -->
+  <div class="container" id="services">
+    <h1>Services</h1>
+      <div class="row">
+        <div class="col-lg-4  col-sm-6 mb-3 mb-sm-0">
+          <div class="card" data-aos="fade-up"
+     data-aos-anchor-placement="center-center">
+            <div class="card-body">
+              <i class="fa-solid fa-laptop fa-xl"></i>
+              <h5 class="card-title">Development</h5>
+              <p class="card-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-3 mb-sm-0">
+          <div class="card" data-aos="fade-up"
+     data-aos-anchor-placement="center-center">
+            <div class="card-body">
+              <i class="fa-solid fa-user fa-2xl"></i>
+              <h5 class="card-title">Design</h5>
+              <p class="card-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="card" data-aos="fade-up"
+     data-aos-anchor-placement="center-center">
+            <div class="card-body">
+              <i class="fa-brands fa-github fa-2xl"></i>
+              <h5 class="card-title">E-commerces</h5>
+              <p class="card-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+  <!-- blog -->
+<div class="container" id="blogo" data-aos="fade-left"
+data-aos-anchor="#example-anchor"
+data-aos-offset="500"
+data-aos-duration="500">
+  <div class="blog">
+    <h1>
+      Read on Medium
+    </h1>
+  </div>
+    <div class="blogtext">
+    <p>Jun -12- 2024</p>
+    <h1>Front-end Developer today <span>2 Min READ</span>
+    </h1>
+  </div>
+</div>
+
+<div class="container" id="blogo" data-aos="fade-left"
+data-aos-anchor="#example-anchor"
+data-aos-offset="500"
+data-aos-duration="500">
+ 
+    <div class="blogtext">
+    <p>Jun -12- 2024</p>
+    <h1>Back-end Developer today <span>2 Min READ</span>
+    </h1>
+  </div>
+</div>
+<div class="container" id="blogo" data-aos="fade-left"
+data-aos-anchor="#example-anchor"
+data-aos-offset="500"
+data-aos-duration="500">
+    <div class="blogtext">
+    <p>Jun -12- 2024</p>
+    <h1>ux Ui Developer today <span class="span1">2 Min READ</span>
+    </h1>
+  </div>
+</div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+</body>
+
+</html>
